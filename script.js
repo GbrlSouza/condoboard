@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
+  registerLicense("Ngo9BigBOggjHTQxAR8/V1NMaF5cXmBCf1FpRmJGdld5fUVHYVZUTXxaS00DNHVRdkdnWH1fdnVURWVeVEB1VkI=");
+
   var scheduler = new ej.schedule.Schedule({
     height: '600px',
     selectedDate: new Date(),
@@ -19,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     }
   });
+
   scheduler.appendTo('#Scheduler');
 
   var grid = new ej.grids.Grid({
@@ -32,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ],
     dataSource: []
   });
+
   grid.appendTo('#Grid');
 
   function handleSchedulerCreate(events) {
