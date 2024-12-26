@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@syncfusion/ej2-base": "^28.1.33",
+    "@syncfusion/ej2-grids": "^28.1.36",
+    "@syncfusion/ej2-schedule": "^28.1.36",
     "body-parser": "^1.20.3",
     "express": "^4.21.2",
     "pg": "^8.13.1"

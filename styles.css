@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+main {
+  padding: 20px;
+}
+
+#scheduler-section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+#Scheduler,
+#Grid {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.e-schedule-toolbar {
+  background-color: #007bff;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  header {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  #Scheduler,
+  #Grid {
+    height: 400px;
+  }
+}

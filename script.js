@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
-  registerLicense("Ngo9BigBOggjHTQxAR8/V1NMaF5cXmBCf1FpRmJGdld5fUVHYVZUTXxaS00DNHVRdkdnWH1fdnVURWVeVEB1VkI=");
+  ej.base.registerLicense("Ngo9BigBOggjHTQxAR8/V1NMaF5cXmBCf1FpRmJGdld5fUVHYVZUTXxaS00DNHVRdkdnWH1fdnVURWVeVEB1VkI=");
 
   var scheduler = new ej.schedule.Schedule({
-    height: '600px',
+    height: '700px',
     selectedDate: new Date(),
     eventSettings: {
       dataSource: []
