@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
-  ej.base.registerLicense("Ngo9BigBOggjHTQxAR8/V1NMaF5cXmBCf1FpRmJGdld5fUVHYVZUTXxaS00DNHVRdkdnWH1fdnVURWVeVEB1VkI=");
+  ej.base.registerLicense(
+    "Ngo9BigBOggjHTQxAR8/V1NMaF5cXmBCf1FpRmJGdld5fUVHYVZUTXxaS00DNHVRdkdnWH1fdnVURWVeVEB1VkI="
+  );
 
   var scheduler = new ej.schedule.Schedule({
     height: '700px',
